@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app/index.js",
-    "test": "eslint app/**"
+    "test": "./node_modules/.bin/eslint app/**"
   },
   "type": "module",
   "repository": {
