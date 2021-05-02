@@ -1,0 +1,26 @@
+{
+  "name": "tweezer",
+  "version": "0.0.1",
+  "description": "its gonna be cold",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acr13/tweezer.git"
+  },
+  "author": "acr13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acr13/tweezer/issues"
+  },
+  "homepage": "https://github.com/acr13/tweezer#readme",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
