@@ -1,7 +1,7 @@
 import Koa from 'koa';
 import Router from 'koa-router';
 
-import { healthRouter } from './routes/health/index.js';
+import { healthRouter } from './routes/health/health.router.js';
 import { gamesRouter } from './routes/games/games.router.js';
 
 const app = new Koa();
