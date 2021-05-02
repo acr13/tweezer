@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app/index.js",
+    "start": "node app/index.js",
     "test": "./node_modules/.bin/eslint app/**"
   },
   "type": "module",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/acr13/tweezer#readme",
   "dependencies": {
+    "got": "^11.8.2",
     "koa": "^2.13.1",
     "koa-router": "^10.0.0",
     "nodemon": "^2.0.7"
